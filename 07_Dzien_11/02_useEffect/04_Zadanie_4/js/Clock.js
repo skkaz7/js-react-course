@@ -12,7 +12,7 @@ function Clock() {
         }, 1000)
 
         return () => clearInterval(myInterval)
-    })
+    }, [])
 
     return (
         <>
