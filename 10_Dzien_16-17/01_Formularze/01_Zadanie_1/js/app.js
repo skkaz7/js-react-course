@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 
-import Form from "./Hello";
+import Hello from "./Hello";
 
 function App() {
-    return <Form/>
+    return <Hello/>
 }
 
 ReactDOM.render(<App/>, document.getElementById("app"));
